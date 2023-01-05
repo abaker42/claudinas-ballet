@@ -52,7 +52,6 @@ const RegisterForm = (props) => {
 			console.log('My Phone: ' + phoneInput);
 
 			const url =
-				//'https://react-http-30b70-default-rtdb.firebaseio.com/students.json';
 				'https://claudina-ballet-default-rtdb.firebaseio.com/dancers.json';
 
 			fetch(url, {
