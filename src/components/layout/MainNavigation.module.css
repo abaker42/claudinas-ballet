@@ -1,0 +1,45 @@
+.header {
+	width: auto;
+	height: 10rem;
+	display: flex;
+	padding: 0 1%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #59048d;
+	margin: 0;
+}
+
+.logo {
+	font-size: 20rem;
+	color: white;
+}
+.logo img {
+	display: block;
+	max-height: 15rem;
+	padding-top: auto;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px;
+	border-color: #ffd700;
+}
+
+.nav li {
+	margin-left: 1.5rem;
+	font-size: 1.25rem;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #ffd700;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+	color: #e6fcfc;
+}

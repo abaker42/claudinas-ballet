@@ -1,0 +1,19 @@
+.responsiveImg {
+	width: 30%;
+	max-width: 250px;
+	height: auto;
+	padding: 70px 0;
+	padding-right: 2rem;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+}
+
+.profile {
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 70px 0;
+}
