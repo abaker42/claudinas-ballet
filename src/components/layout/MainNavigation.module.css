@@ -1,10 +1,10 @@
 .header {
 	/* width: auto; */
-	max-width: auto;
+	max-width: 100%;
 	height: 10rem;
 	display: flex;
-	padding: 0 1%;
-	justify-content: left;
+	padding: 0;
+	justify-content: space-between;
 	align-items: center;
 	background-color: #59048d;
 	margin: 0;
@@ -20,16 +20,25 @@
 	padding-top: auto;
 }
 
-.nav ul {
-	list-style: none;
-	display: flex;
-	margin: 0;
-	padding: 0;
-	border-bottom: 1px;
-	border-color: #ffd700;
-	max-width: auto;
+@media screen and (max-width: 700px) {
+	nav ul {
+		display: block;
+		list-style: none;
+		justify-content: space-around;
+	}
 }
 
+@media screen and (min-width: 700px) {
+	.nav ul {
+		list-style: none;
+		display: flex;
+		margin: 0;
+		padding-right: 4rem;
+		border-bottom: 1px;
+		border-color: #ffd700;
+		max-width: 100%;
+	}
+}
 .nav li {
 	margin-left: 1.5rem;
 	font-size: 1.25rem;

@@ -46,3 +46,8 @@
 	height: auto;
 	padding: 5px;
 }
+
+.balletFlyer {
+	max-width: 100%;
+	height: auto;
+}

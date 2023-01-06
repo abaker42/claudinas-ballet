@@ -17,7 +17,7 @@ function App() {
 			</div>
 			<h1 className='App-Welcome'>Register Now!</h1>
 			<RegisterForm />
-			<img src={flyer} alt='' className='' />
+			<img src={flyer} alt='' className='balletFlyer' />
 			<h1 className='App-Welcome'>About the Director</h1>
 			<AboutMe />
 		</div>
