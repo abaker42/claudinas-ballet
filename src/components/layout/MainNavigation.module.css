@@ -1,9 +1,10 @@
 .header {
-	width: auto;
+	/* width: auto; */
+	max-width: auto;
 	height: 10rem;
 	display: flex;
 	padding: 0 1%;
-	justify-content: space-between;
+	justify-content: left;
 	align-items: center;
 	background-color: #59048d;
 	margin: 0;
@@ -26,6 +27,7 @@
 	padding: 0;
 	border-bottom: 1px;
 	border-color: #ffd700;
+	max-width: auto;
 }
 
 .nav li {

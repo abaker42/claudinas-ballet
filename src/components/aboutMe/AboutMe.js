@@ -1,13 +1,11 @@
 import React, { Fragment } from 'react';
 import classes from './AboutMe.module.css';
 //import cbc from '../../photos/CBC.svg';
-import profilePic from '../../photos/profile.jpg';
 
 const AboutMe = () => {
 	return (
 		<Fragment>
 			<div className={classes.container}>
-				<img src={profilePic} alt='' className={classes.responsiveImg} />
 				<p className={classes.profile}>
 					Claudina Baker has taught thousands of students ballet and liturgical
 					dance professionally. She began dancing at the early age of six. At
