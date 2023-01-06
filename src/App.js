@@ -5,6 +5,7 @@ import children from './photos/children.jpg';
 import group from './photos/group.jpg';
 import little from './photos/littleone.jpg';
 import flyer from './photos/ClaudinaMasterClass_Jan2023.svg';
+import ContactMe from './components/contactMe/ContactMe';
 
 function App() {
 	return (
@@ -20,6 +21,8 @@ function App() {
 			<img src={flyer} alt='' className='balletFlyer' />
 			<h1 className='App-Welcome'>About the Director</h1>
 			<AboutMe />
+			<h1 className='App-Welcome'>Questions Contact</h1>
+			<ContactMe />
 		</div>
 	);
 }

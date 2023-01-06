@@ -121,7 +121,7 @@ const RegisterForm = (props) => {
 				</div>
 				<div className='control-group'>
 					<div className={emailClass}>
-						<label htmlFor='name'>E-Mail</label>
+						<label htmlFor='name'>Email Address</label>
 						<input
 							type='email'
 							id='name'

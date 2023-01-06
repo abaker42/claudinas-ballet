@@ -10,9 +10,12 @@ body {
 .form-control {
 	margin-bottom: 1rem;
 	max-width: 40%;
+	justify-content: left;
+	margin-left: 1rem;
 }
 
 .form-control input,
+.form-control textarea,
 .form-control label {
 	display: block;
 }
@@ -24,6 +27,7 @@ body {
 }
 
 .form-control input,
+.form-control textarea,
 .form-control select {
 	font: inherit;
 	padding: 0.5rem;
@@ -43,14 +47,23 @@ body {
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-.form-control input:focus {
+.form-control input:focus,
+.form-control textarea:focus {
 	outline: none;
 	border-color: #240370;
 	background-color: #e0d4fd;
+	padding-bottom: 1rem;
 }
 
 .control-group {
 	display: flex;
+	column-gap: 1rem;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.control-group1 {
+	display: block;
 	column-gap: 1rem;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -85,6 +98,7 @@ button:disabled:active {
 	cursor: not-allowed;
 }
 .form-actions {
+	padding-top: 2rem;
 	text-align: center;
 }
 
