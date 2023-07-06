@@ -17,7 +17,7 @@ const BookSale = () => {
 				<PayPalScriptProvider
 					options={{
 						"client-id":
-							"Af22cGOftzA3l-BRbceK5stG-dhBWkDaLLBCh5cTWudjI3MQe9fOVrRS_-ciAyhRJ_a7kBYmgTcgpaqP",
+							"AYUU2eDWBvO20cOmVY24YP2gXV5-uIkOxQm9BgK0BS5nZRuDIM0Lj3UYm0IP3-IQBNJ-RVKLK1ksnAt7",
 					}}
 				>
 					<PayPalButtons
