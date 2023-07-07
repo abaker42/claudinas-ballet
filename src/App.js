@@ -22,7 +22,7 @@ function App() {
 
 			<h1 className='App-Welcome'>Claudina's Ballet Classes</h1>
 			<div className='container'>
-				<img src={children} alt='kids ballet class' className='responsiveImg' />
+				<img src={children} alt='kids ballet class' className='responsiveImg'/>
 				<img
 					src={group}
 					alt='group adult ballet class'
