@@ -1,15 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import AboutMe from "./components/aboutMe/AboutMe";
-import RegisterForm from "./components/registerForm/RegisterForm";
-import children from "./photos/children.jpg";
-import group from "./photos/group.jpg";
-import little from "./photos/littleone.jpg";
-import flyer from "./photos/Claudina AdltClass_feb.svg";
-import ContactMe from "./components/contactMe/ContactMe";
+
 import Modal from "./components/modal/Modal";
 import Backdrop from "./components/modal/Backdrop";
+import Home from "./components/home/Home";
+import { Route, Routes } from "react-router-dom";
+import AboutMe from "./components/aboutMe/AboutMe";
 import BookSale from "./components/bookSale/bookSale";
+import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 
 function App() {
@@ -19,30 +17,12 @@ function App() {
 		<div className='App'>
 			<Modal show={showIntro} />
 			<Backdrop show={showIntro} />
-
-			<h1 className='App-Welcome'>Claudina's Ballet Classes</h1>
-			<div className='container'>
-				<img src={children} alt='kids ballet class' className='responsiveImg'/>
-				<img
-					src={group}
-					alt='group adult ballet class'
-					className='responsiveImg'
-				/>
-				<img
-					src={little}
-					alt='children train ballet dance'
-					className='responsiveImg'
-				/>
-			</div>
-			<h1 className='App-Welcome'>Register Now!</h1>
-			<p>Payments via cash or cashapp: $claudinapearl</p>
-			<RegisterForm />
-			<BookSale />
-			<img src={flyer} alt='' className='balletFlyer' />
-			<h1 className='App-Welcome'>About the Director</h1>
-			<AboutMe />
-			<h1 className='App-Welcome'>Questions Contact</h1>
-			<ContactMe />
+			<Routes>
+				<Route exact path='/' element={<Home />} />
+				<Route exact path='about-me' element={<AboutMe />} />
+				<Route exact path='books' element={<BookSale />} />
+				<Route path='*' element={<PageNotFound />}/>
+			</Routes>
 		</div>
 	);
 }

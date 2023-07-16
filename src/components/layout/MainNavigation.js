@@ -19,13 +19,13 @@ const MainNavigation = () => {
 							</NavLink>
 						</li>
 						<li>
-							<NavLink to='new-quote' className={active}>
+							<NavLink to='about-me' className={active}>
 								About Me
 							</NavLink>
 						</li>
 						<li>
-							<NavLink to='new-quote' className={active}>
-								Testimonials
+							<NavLink to='books' className={active}>
+								Books
 							</NavLink>
 						</li>
 						<li>
