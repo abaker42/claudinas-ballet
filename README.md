@@ -62,8 +62,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### Follow these steps to deploy this app
+1. run `npm run build` to make your build folder
+2. run `firebase init`
+    i. be sure to select Hosting and optionally set up get
+    ii. when asked what directory you want to use type `build`
+    iii. when to overwrite build folder type N *IMPORTANT*
+3. run `firebase deploy`
 
 ### `npm run build` fails to minify
 
